@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: url("img\index-removebg-preview.png");
+}
+
+.container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: aliceblue;
+    align-items: center;
+}
+
+.subject {
+    display: flex;
+    align-items: center;
+}
+
+.subject input {
+    width: 600px;
+    height: 32px;
+    border-radius: 6px;
+    margin: 22px 258px;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+.subject input::placeholder {
+    text-align: left;
+}
+
+.attainment {
+    display: flex;
+    align-items: center;
+}
+
+.attainment input {
+    width: 600px;
+    height: 32px;
+    border-radius: 6px;
+    margin: 10px 227px;
+    font-size: 16px;
+    border: 2px solid black;
+}
+
+.attainment input::placeholder {
+    text-align: left;
+}
+
+.co-file {
+    display: flex;
+    align-items: center;
+}
+
+.co-file input {
+    width: 600px;
+    height: 32px;
+    border-radius: 6px;
+    margin: 15px 135px;
+    font-size: 16px;
+    border: 2px solid black;
+    background: white;
+}
+
+.co-file input::placeholder {
+    align-items: center;
+    text-align: left;
+}
+
+.student-data {
+    display: flex;
+    align-items: center;
+}
+
+.student-data input {
+    width: 600px;
+    height: 32px;
+    border-radius: 6px;
+    margin: 25px 103px;
+    font-size: 16px;
+    border: 2px solid black;
+    background: white;
+}
+
+.student-data input::placeholder {
+    align-items: center;
+    text-align: left;
+}
